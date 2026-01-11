@@ -1,21 +1,8 @@
 {
-    "name": "backend",
-    "version": "1.0.0",
-    "main": "dist/server.js",
     "scripts": {
-        "start": "node dist/server.js",
-        "dev": "ts-node src/server.ts",
-        "build": "tsc",
-        "build:prod": "tsc && node dist/server.js"
-    },
-    "dependencies": {
-        "dotenv": "^17.0.0",
-        "express": "^4.18.2",
-        "winston": "^3.19.0"
-    },
-    "devDependencies": {
-        "@types/winston": "^2.4.4",
-        "ts-node": "^10.9.2",
-        "typescript": "^5.9.3"
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+        "test": "jest"
     }
 }

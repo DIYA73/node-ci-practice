@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "commonjs",
     "strict": true,
-    "types": ["node"],
-    "skipLibCheck": true
-  },
-  "include": ["src", "dist/tests"]
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "types": ["node", "jest"]
+  }
 }
